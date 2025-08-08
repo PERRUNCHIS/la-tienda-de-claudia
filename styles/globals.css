@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple dark mode handling via class .dark on html */
+html.dark {
+  color-scheme: dark;
+}
